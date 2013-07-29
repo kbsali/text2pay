@@ -1,0 +1,19 @@
+{
+    "name": "kbsali/text2pay",
+    "type": "library",
+    "description": "Text2pay PHP SDK",
+    "keywords": ["text2pay"],
+    "homepage": "https://github.com/kbsali/text2pay-php",
+    "license": "Apache",
+    "authors": [
+        { "name": "Braga, Bruno", "email": "bruno.braga@gmail.com" },
+        { "name": "Martens, Scott", "email": "smartens80@gmail.com" },
+        { "name": "Kevin saliou", "email": "kevin@saliou.name" }
+    ],
+    "require": {
+        "php": ">=5.0.0"
+    },
+    "autoload": {
+        "classmap": ["actions/", "helpers/"]
+    }
+}
